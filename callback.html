@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8">
+  <title>Spotify Callback</title>
+</head>
+<body>
+  <h1>Spotify Callback</h1>
+  <p>Als je hier terechtkomt, heeft Spotify je teruggestuurd na inloggen.</p>
+  <p>Volledige URL:</p>
+  <pre id="url"></pre>
+
+  <script>
+    // Toon de volledige URL inclusief code/token
+    document.getElementById("url").textContent = window.location.href;
+  </script>
+</body>
+</html>
